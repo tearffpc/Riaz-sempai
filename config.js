@@ -22,6 +22,8 @@ module.exports = {
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     AFN: process.env.ALL_CAPTION === undefined ? 'FRM SEMPAI' : process.env.ALL_CAPTION,
+    PHONE: process.env.NUMBER === undefined ? '+918301985859' : process.env.NUMBER,   
+    OA_NAME: process.env.DEPLOYER === undefined ? 'Someone' : process.env.DEPLOYER,    
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
     STANDPLK: process.env.STANDBY_MODE === undefined ? 'off' : process.env.STANDBY_MODE,
     PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
