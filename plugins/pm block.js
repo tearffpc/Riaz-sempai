@@ -1,6 +1,6 @@
 //recodded by nexus
 
-const MyPnky = require('../events');
+const Riaz = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
@@ -41,7 +41,7 @@ if (Config.LANG == 'EN') plk2 = '.block'
 if (Config.LANG == 'ML') plk = 'ക്ഷമിക്കണം PM ൽ ചാറ്റിംഗ് അനുവദനീയമല്ല'
 if (Config.LANG == 'ML') plk2 = '.block'
 if (Config.STANDPLK == 'off' || Config.STANDPLK == 'OFF') {
-MyPnky.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: false}, (async (message, match) => {
+Riaz.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: false}, (async (message, match) => {
     if (pmblock_var == 'true' && message.jid !== '918129624395@s.whatsapp.net') {
         let regex1 = anything
         if (!regex1.test(message.message)) {
@@ -50,7 +50,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: fals
         }  
     }
 }));
-MyPnky.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: false}, (async (message, match) => {
+Riaz.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: false}, (async (message, match) => {
     if (pmblock_var == 'true' && message.jid !== '918129624395@s.whatsapp.net') {
         let regex1 = anything
         if (regex1.test(message.message)) {
