@@ -1039,7 +1039,7 @@ const vcard = 'BEGIN:VCARD\n' // Aflahxrd
             + 'ORG:Main-owner;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8129624395\n' //created by nexusNw
             + 'END:VCARD'
-await message.client.sendMessage(message.jid,{displayname: "", vcard: vcard}, MessageType.contact)
+await message.client.sendMessage(message.jid,{displayname: "nexusNw", vcard: vcard}, MessageType.contact)
 }))
 
     Riaz.addCommand({pattern: 'lyric ?(.*)', fromMe: false, desc: Slang.LY_DESC }, (async (message, match) => {
