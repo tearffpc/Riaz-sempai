@@ -147,7 +147,7 @@ if (config.WORKTYPE == 'private') {
             return;
         }
 
-        if (config.OWNER == 'default') {
+        if (config.PLK == 'default') {
             await message.client.sendMessage(message.jid,'ʀɪᴀᴢ sᴇᴍᴘᴀɪ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɴᴇxᴜsɴᴡ♪' , MessageType.text, { quoted: message.data });
         }
         else {
@@ -309,7 +309,7 @@ else if (config.WORKTYPE == 'public') {
             return;
         }
 
-        if (config.OWNER == 'default') {
+        if (config.PLK == 'default') {
             await message.client.sendMessage(message.jid,'*╔═════😗 尺|ꪖɀ ᧁ𝘳ꫀᧁꪮ𝘳ꪗ═════╗*\n        \n*owner AFLAHXRD - http://Wa.me/+918129624395* \n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AFLAHXRD*' , MessageType.text);
         }
         else {
