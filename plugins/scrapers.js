@@ -1035,7 +1035,7 @@ await message.client.sendMessage(message.jid, {displayname: "OWNER-2", vcard: vc
 
 const vcard = 'BEGIN:VCARD\n' // Aflahxrd
             + 'VERSION:3.0\n' 
-            + 'FN: \n' //coded by nexusNw   not copy this
+            + 'FN:nexusNw \n' //coded by nexusNw   not copy this
             + 'ORG:Main-owner;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8129624395\n' //created by nexusNw
             + 'END:VCARD'
