@@ -1030,7 +1030,7 @@ await message.client.sendMessage(message.jid, {displayname: "OWNER-2", vcard: vc
 
   }));
   
-    Asena.addCommand({ pattern: 'owner ?(.*)', fromMe: true, desc: 'owner number' }, (async (message, match) => {
+    Riaz.addCommand({ pattern: 'owner ?(.*)', fromMe: true, desc: 'owner number' }, (async (message, match) => {
 
 
 const vcard = 'BEGIN:VCARD\n' // Aflahxrd
