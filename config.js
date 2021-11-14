@@ -42,7 +42,7 @@ module.exports = {
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.GIF_BYE,
     BOTPLK: process.env.BOT_NAME === undefined ? 'RIAZ GREGORI' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
-    TALKING_RIAZ: process.env.TALKING_RIAZ === undefined ? 'false' : process.env.TALKING_RIAZ
+    TALKING_RIAZ: process.env.TALKING_RIAZ === undefined ? 'false' : process.env.TALKING_RIAZ,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
     BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
