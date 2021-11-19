@@ -32,10 +32,10 @@
 
 ### ⚠️Warning
 ```
-Due to usage of Filo; Your WhatsApp account may be banned.
+Due to usage of Sempai; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
-Absolutely, Filo developer do not accept responsibility.
-By establishing the Filo, you are deemed to have accepted these responsibilities.
+Absolutely, The developer do not accept responsibility.
+By establishing the Sempai, you are deemed to have accepted these responsibilities.
 
 Your account may be banned for the following reasons:
 - Using .ban command for more than one user.📌
