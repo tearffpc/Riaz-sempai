@@ -1599,8 +1599,17 @@ Riaz.addCommand({pattern: 'revoke', fromMe: true, desc: "Revokes/resets group's 
     if (!im) return await message.client.sendMessage(message.jid, "```Promote bot as an Admin to use super commands```", MessageType.text);
     await message.client.revokeInvite(message.jid)
     await message.client.sendMessage(message.jid, "```Group link reset successfully ✅```", MessageType.text);
-	}}))
+	}}));
 
+Riaz.addCommand({pattern: 'rename ?(.*)', onlyGroup: true, fromMe: true,desc: 'change group name'}, (async (message, match) => {
+    var im = await checkImAdmin(message);
+    if (!im) return await message.client.sendMessage(message.jid,'i am not admin',MessageType.text);
+    if (match[1] === '') return await message.client.sendMessage(message.jid,'give a name for you group \n exampple- .rename Riazgregory fans',MessageType.text);
+    await message.client.groupUpdateSubject(message.jid, match[1]);
+    await message.client.sendMessage(message.jid,'group name changed to  ```' + match[1] + '```' ,MessageType.text);
+    }
+));
+}
 module.exports = {
     checkImAdmin: checkImAdmin
 };
