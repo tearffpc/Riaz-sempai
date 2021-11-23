@@ -285,36 +285,7 @@ if (config.STANDPLK == 'off' || config.STANDPLK == 'OFF') {
     }
   
   
- Riaz.addCommand({ pattern: 'sudo ?(.*)', fromMe: true, desc: 'changes sudo numbers', usage: '.sudo *your number*' }, (async (message, match) => {
-        if (match[1] == '') return await message.sendMessage('NEED A NUMBER')
-        await heroku.patch(baseURI + '/config-vars', {
-            body: {
-                ['SUDO']: match[1]
-            }
-        });
-        await message.sendMessage("ꪀꫀ᭙ 𝘴ꪊᦔꪮ ꪊ卩ᗪ卂ㄒ乇ᗪ")
-    }));
 
-    Riaz.addCommand({ pattern: 'caption ?(.*)', fromMe: true, desc: 'changes all captions', usage: '.caption *Made by JulieMwol*' }, (async (message, match) => {
-        if (match[1] == '') return await message.sendMessage('NEED cA CAPTION')
-        await heroku.patch(baseURI + '/config-vars', {
-            body: {
-                ['ALL_CAPTION']: match[1]
-            }
-        });
-        await message.sendMessage("ꪀꫀ᭙ ᥴꪖρ𝓽𝓲ꪮꪀ UPDATED")
-    }));
-
-    
-    Riaz.addCommand({ pattern: 'botname ?(.*)', fromMe: true, desc: 'change your bot name', usage: '.botname *name* ' }, (async (message, match) => {
-        if (match[1] == '') return await message.sendMessage('TYPE YOUR NEW BOT NAME')
-        await heroku.patch(baseURI + '/config-vars', {
-            body: {
-                ['BOT_NAME']: match[1]
-            }
-        });
-        await message.sendMessage("ꪀꫀ᭙ ꪀꪖꪑꫀ UPDATED")
-    }));
 
 
  Riaz.addCommand({pattern: 'austick ?(.*)', fromMe: true, desc: plk_desc, usage: '.austick on / off' }, (async (message, match) => {
