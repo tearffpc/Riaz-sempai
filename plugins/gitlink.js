@@ -18,7 +18,7 @@ Riaz.addCommand({pattern: 'git', fromMe: false, desc: Lang.GL}, (async (message,
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*☞︎︎︎-----------☔︎尺|ꪖɀ 𝘴ꫀᴍᴘᴀɪ☔︎-----------☜︎︎︎*
+    await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*☞︎︎︎-----------☔︎𝚁𝚒𝚊𝚣 𝚂𝚎𝚖𝚙𝚊𝚒-----------☜︎︎︎*
  
 
         *➪ɢɪᴛʜᴜʙ ʟɪɴᴋ        _http://github.com/nexusNw/Riaz-sempai_*
