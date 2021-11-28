@@ -98,7 +98,8 @@ var i = Math.floor(31*Math.random())
         a_plk[8] = "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
         a_plk[9] = "https://wallpapercave.com/wp/wp2957455.jpg";
         a_plk[10] = "https://i.imgur.com/hCMREbm.jpeg";
-	 var p = Math.floor(11*Math.random())
+        a_plk[11] = "https://zenzapi.xyz/api/anime/sfw/avatar?apikey=07d3f898a6";
+	 var p = Math.floor(12*Math.random())
 
         var plk_alive = await axios.get(`${a_plk[p]}`, { responseType: 'arraybuffer' })
 //codded by afnanplk
