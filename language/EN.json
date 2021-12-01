@@ -83,7 +83,7 @@
             "RESTART_DESC": "Restart Riaz senpai",
             "RESTART_MSG": "𝚁𝚎𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚁𝚒𝚊𝚣 𝚜𝚎𝚖𝚙𝚊𝚒",
             "SHUTDOWN_DESC": "Shutdown Riaz senpai",
-            "SHUTDOWN_MSG": "```Shutting down ⛔```",
+            "SHUTDOWN_MSG": "```Shutting down ⛔``` \n\n FOR RESTARTING, GO TO HEROKU AND ON WORKER⭐",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
