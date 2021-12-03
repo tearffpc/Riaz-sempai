@@ -1602,6 +1602,7 @@ Riaz.addCommand({pattern: 'revoke', fromMe: true, desc: "Revokes/resets group's 
 	}}));
 
 Riaz.addCommand({pattern: 'rename ?(.*)', onlyGroup: true, fromMe: true,desc: 'change group name'}, (async (message, match) => {
+   if (message.jid.endsWith('@g.us')) {
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,'i am not admin',MessageType.text);
     if (match[1] === '') return await message.client.sendMessage(message.jid,'give a name for you group \n exampple- .rename Riazgregory fans',MessageType.text);
