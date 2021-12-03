@@ -1,17 +1,22 @@
 <div align="center">
 
-![My card name](https://cardivo.vercel.app/api?name=Riaz%20Sempai&description=Hi,%20Welcome%20To%20Riaz%20Sempai%20WhatsApp%20Bot%20Repo%20❤&image=https://i.imgur.com/n37nF31.jpeg?q=tbn:ANd9GcR7aMC3bf4bg4l_nhYS2Un9FXbFYcB4T83Shjk8xSUZDh_D61LFpzbpeqLW&s=10?v=4&backgroundColor=%23ecf0f1&instagram=nexus.efx&github=nexusNw&)
+![My card name](https://cardivo.vercel.app/api?name=Riaz%20Sempai&description=Hi,%20Welcome%20To%20Riaz%20Sempai%20WhatsApp%20Bot%20Repo%20❤&image=https://i.imgur.com/hlwSx8N.jpeg?q=tbn:ANd9GcR7aMC3bf4bg4l_nhYS2Un9FXbFYcB4T83Shjk8xSUZDh_D61LFpzbpeqLW&s=10?v=4&backgroundColor=%23ecf0f1&instagram=nexus.efx&github=nexusNw&)
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/hlwSx8N.jpeg" width="200" height="200"/>
-  <p align="center">
-<a href="#"><img title=" Riaz-sempai" src="https://img.shields.io/badge/Author ➪☕︎ Nexus Nw-pink ?colorA=255&colorB=255&style=for-the-badge"></a>
+ <p align="center">
+
+<a href="#"><img title=" Riaz-sempai" src="https://img.shields.io/badge/Author--Nexus Nw-riaz ?colorA=255&colorB=255&style=for-the-badge"></a>
+
+
+<p align="left">
+<img src="https://img.shields.io/github/repo-size/nexusNw/Riaz-sempai?color=red&label=Repo%20size&style=italic">
+
 </p>
-  <p align="center">
-<a href="https://chat.whatsapp.com/CXlsz4RBESFIcQR8gENkQj"><img title="join support" src="https://img.shields.io/badge/join_support-afnanplk/pinkymwol?color=black&style=for-the-badge&logo=whatsapp"></a>
+  <p align="left">
+<a href="https://chat.whatsapp.com/CXlsz4RBESFIcQR8gENkQj"><img title="join support" src="https://img.shields.io/badge/join_support-Sempai?color=black&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
-<p align="center">
+
 
 </p>
 <div align="center">
